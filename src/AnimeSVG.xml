@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="kobeon.animesvg.AnimeSVG" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Anime SVG</name>
+    <description>A widget to animate SVG images</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="Source">
+            <property key="inputSVG" type="expression" defaultValue="blue">
+                <caption>Input SVG</caption>
+                <description>The source code of the SVG image. Make sure that the SVG tags are included.</description>
+                <returnType type="String" />
+            </property>
+        </propertyGroup>
+        <propertyGroup caption="Configuration">
+            <propertyGroup caption="Animation">
+                <property key="loop" type="boolean" defaultValue="true">
+                    <caption>Loop</caption>
+                    <description>Loop the animation.</description>
+                </property>
+                <property key="duration" type="integer" defaultValue="1000">
+                    <caption>Duration</caption>
+                    <description>The duration of the animation.</description>
+                </property>
+                <property key="strokeWidth" type="integer" defaultValue="1">
+                    <caption>Stroke width</caption>
+                    <description>The width of the stroke in px.</description>
+                </property>
+                <property key="strokeLength" type="integer" defaultValue="500">
+                    <caption>Dash pattern length</caption>
+                    <description>The length of the dash pattern applied to the stroke of a SVG path.</description>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Visuals">
+                <property key="size" type="integer" defaultValue="0">
+                    <caption>Size</caption>
+                    <description>The size of the SVG. If set to 0, it will take the default size of the source code.</description>
+                </property>
+                <property key="color" type="string" required="false">
+                    <caption>Color</caption>
+                    <description>The color of the strokes. Leave empty if you want to use the svg default colors.</description>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+</widget>
