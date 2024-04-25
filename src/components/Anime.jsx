@@ -16,7 +16,6 @@ export const AnimatedPath = ({ d, fill, svgFillColor, color, duration, strokeWid
         reset: true
     });
 
-    // Use provided color prop if not empty, otherwise fall back to previous logic
     const finalStrokeColor = color || fill || svgFillColor;
 
     return (
@@ -57,7 +56,7 @@ export class AnimationFromSVG extends Component {
                     d={path.getAttribute("d")}
                     fill={path.getAttribute("fill") || svgFillColor}
                     svgFillColor={svgFillColor}
-                    color={color}  // Pass the new color prop to each AnimatedPath
+                    color={color} 
                     duration={duration}
                     strokeWidth={strokeWidth}
                     strokeLength={strokeLength}

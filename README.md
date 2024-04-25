@@ -9,7 +9,7 @@ A widiget to animate SVG images.
 1. Install widget from the marketplace.
 2. Add the widget to the page.
 3. Add the sourcecode to the the 'Source' tab. Make sure that the SVG tags are included.
-4. Play around with the different animations possibilities.
+4. Play around with the different animation possibilities.
 
 ## Demo project
 https://animesvg-sandbox.mxapps.io/
