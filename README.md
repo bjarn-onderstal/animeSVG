@@ -1,5 +1,5 @@
 ## AnimeSVG
-A widiget to animate SVG images.
+A widget to animate SVG images.
 
 ## Features
 - Animate the stroke of SVG images

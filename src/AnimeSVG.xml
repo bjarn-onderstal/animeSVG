@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget id="kobeon.animesvg.AnimeSVG" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
-        supportedPlatform="Web"
-        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+<widget id="kobeon.animesvg.AnimeSVG" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
     <name>Anime SVG</name>
     <description>A widget to animate SVG images</description>
-    <icon/>
     <properties>
         <propertyGroup caption="Source">
             <property key="inputSVG" type="expression" defaultValue="blue">
