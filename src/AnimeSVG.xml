@@ -6,7 +6,7 @@
     <description>A widget to animate SVG images</description>
     <properties>
         <propertyGroup caption="Source">
-            <property key="inputSVG" type="expression" defaultValue="blue">
+            <property key="inputSVG" type="expression" defaultValue="Add your SVG string here">
                 <caption>Input SVG</caption>
                 <description>The source code of the SVG image. Make sure that the SVG tags are included.</description>
                 <returnType type="String" />
